@@ -9,40 +9,42 @@ body {
   margin: 0;
   padding: 40px;
   line-height: 1.75;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1 {
 
   font-size: 3.5em;
   text-align: left;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-h2 {font-size: 2em;
+h2 {font-size: 2.5em;
+  font-weight: bold;
+  margin: 5px;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;;
 
 }
 
-h4 {font-size: 1em;
-margin-top: 0;
-text-align: left;
-
-}
 
 dt {
 	font-size: 2em;
 	font-weight: bold;
+  margin: 10px;
+  text-align: left;
 
 }
 
 dl{ font-size: 1em;
 font-style: italic;
-text-align: right;
+text-align: left;
 border: 1px solid rgb(146, 164, 255);
 width: 500px;
 background-color: rgb(146, 164, 255);
-margin: 100;
-padding: 20px;
-box-shadow: 10px 10px 5px rgb(0, 0, 0);
-border-radius: 15px;
+margin: 40px;
+padding: 10px;
+box-shadow: 10px 10px 5px rgb(135, 102, 255);
+border-radius: 10px;
 }
 
 .column{text-align: left;}
@@ -51,8 +53,18 @@ ul{
   border:  solid rgb(146, 164, 255);
   width: 500px;
   background-color: rgb(146, 164, 255);
-  margin: 100;
-  padding: 20px;   
-  box-shadow: 10px 10px 5px rgb(0, 0, 0);
-  border-radius: 15px;
+  margin: 40px;
+  padding: 10px;   
+  box-shadow: 10px 10px 5px rgb(135, 102, 255);
+  border-radius: 10px;
+  }
+
+a:link {
+    color: rgb(105, 173, 255);
+  }
+  
+a:visited{color: blueviolet;}
+
+a:hover {
+    color: rgb(14, 7, 81);
   }
