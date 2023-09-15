@@ -18,13 +18,12 @@ h1{font-weight: bolder;
 h2{font-weight: bold; 
     text-align: left;
     font-style: italic;
-font-size: 1.5em;}
+font-size: 2em;}
 
 section{font-style: italic; 
-    font-size: 1em;
+    font-size: 1.5em;
     text-align: left;
-    margin: 40px; 
-    padding: 10px;
+    padding: 50px;
     border: 1px solid rgb(146, 164, 255);
     width: 800px;
     background-color: rgb(146, 164, 255);
@@ -42,14 +41,27 @@ a:visited{color: blueviolet;}
     color: rgb(14, 7, 81);
   }
 
-dl{font-size: 1em; 
+dl{font-size: 1.5em; 
     font-weight: lighter; 
     font-style: normal;
-    text-align: left;
-    margin: 40px; 
-    padding: 10px;
+    padding: 40px;
     border: 1px solid rgb(146, 164, 255);
-    width: 200px;
+    width: 800px;
     background-color: rgb(146, 164, 255);
     box-shadow: 10px 10px 5px rgb(135, 102, 255);
     border-radius: 15px; }
+
+ol{font-size: 1.5em; 
+font-weight: bold;
+font-style: normal;
+text-align: left;
+padding: 50px;
+width: 800px;
+border: 1px solid rgb(146, 164, 255);
+background-color: rgb(146, 164, 255);
+box-shadow: 10px 10px 5px rgb(135, 102, 255);
+border-radius: 15px; }
+
+p2{font-weight: lighter;
+font-style: italic;
+text-align: center;}
