@@ -31,14 +31,18 @@ section{font-style: italic;
     border-radius: 15px;}
 
 
-a:link {
-  color: rgb(145, 31, 94);
+    a:link {
+      color: blueviolet;
+      text-decoration: wavy;
+    }
+  a:active, a:visited{color: blueviolet;
+    text-decoration: underline;
   }
-
+    
   a:hover {
-    color: rgb(14, 7, 81);
-  }
-
+      color: rgb(14, 7, 81);
+    }
+    
 dl{font-size: 1.5em; 
     font-weight: lighter; 
     font-style: normal;
