@@ -60,8 +60,12 @@ ul{
   }
 
 a:link {
-    color: rgb(145, 31, 94);
+    color: blueviolet;
+    text-decoration: wavy;
   }
+a:active, a:visited{color: blueviolet;
+  text-decoration: underline;
+}
   
 a:hover {
     color: rgb(14, 7, 81);

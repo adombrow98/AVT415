@@ -32,10 +32,8 @@ section{font-style: italic;
 
 
 a:link {
-    color: rgb(14, 111, 113);
+  color: rgb(145, 31, 94);
   }
-  
-a:visited{color: blueviolet;}
 
   a:hover {
     color: rgb(14, 7, 81);
