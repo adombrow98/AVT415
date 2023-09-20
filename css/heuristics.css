@@ -1,0 +1,65 @@
+font{font-family: 'Vast Shadow', serif; 
+    font-family: 'Comfortaa', cursive; 
+    font-family: 'Mooli', sans-serif;}
+
+body{font-family: 'Comfortaa', cursive;
+    padding: 100px;
+    background-color: rgb(215, 131, 232);
+    color: azure;
+}
+
+.title{font-size: 3em; 
+    font-weight: 700;}
+
+.heading{font-size: 2em;
+font-weight: 700;
+color:rgb(29, 13, 151);
+text-align: left;}
+
+.definitions{font-family: 'Mooli', sans-serif;
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 1.5em;
+    font-weight: 400px;}
+
+.number{font-family: 'Vast Shadow', serif;
+color:rgb(29, 13, 151);
+padding: 20px;
+text-align: left;
+font-size: 2.5em;
+}
+
+.summary{color: rgb(255, 236, 141); 
+    font-weight: 700; 
+    text-decoration: underline;}
+
+.author{color: blanchedalmond;
+font-size: 1em;
+}
+
+section{font-size: 1.75em; 
+    text-align: left;
+    color: blanchedalmond;}
+
+footer{font-size: 1em;
+    border: 1px solid rgb(146, 164, 255);
+    background-color: rgb(146, 164, 255);
+    padding: 50px; 
+    max-width: 100%;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 10px;
+    margin: auto;}
+
+a:link {
+        color: blueviolet;
+        text-decoration: wavy;
+      }
+
+a:active, a:visited{color: blueviolet;
+      text-decoration: underline;
+    }
+      
+a:hover {
+        color: rgb(14, 7, 81);
+      }
