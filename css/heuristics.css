@@ -9,7 +9,8 @@ body{font-family: 'Comfortaa', cursive;
 }
 
 .title{font-size: 3em; 
-    font-weight: 700;}
+    font-weight: 700;
+text-align: center;}
 
 .heading{font-size: 2em;
 font-weight: 700;

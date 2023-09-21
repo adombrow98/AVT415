@@ -1,62 +1,72 @@
 @charset "UTF-8";
-/* CSS Document */
 
-html {font-size: 100%;} /*16px*/
+font{font-family: 'Aoboshi One', serif;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-family: 'Judson', serif;
+  font-family: 'Milonga', cursive;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-family: 'Vast Shadow', serif;}
+
+html {font-size: 100%;}
 
 body {
   background-color: rgb(228, 181, 255);
   color: #08124f;
-  margin: 0;
-  padding: 40px;
   line-height: 1.75;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Goudy Bookletter 1911', serif;
+  margin: auto;
+  padding: 120px;
 }
+
+
 h1 {
 
   font-size: 3.5em;
-  text-align: left;
-  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-family: 'Aoboshi One', serif;
 }
 
 h2 {font-size: 2.5em;
   font-weight: bold;
-  margin: 5px;
   text-align: left;
-  font-family: Georgia, 'Times New Roman', Times, serif;;
+  font-family: 'Sorts Mill Goudy', serif;
 
 }
+
+h4{text-align: center;}
 
 
 dt {
 	font-size: 2em;
 	font-weight: bold;
-  margin: 10px;
-  text-align: left;
-
 }
 
-dl{ font-size: 1em;
+.projects{ font-size: 1.25em;
 font-style: italic;
 text-align: left;
-border: 1px solid rgb(146, 164, 255);
-width: 500px;
+border: solid rgb(146, 164, 255);
 background-color: rgb(146, 164, 255);
-margin: 40px;
-padding: 10px;
 box-shadow: 10px 10px 5px rgb(135, 102, 255);
 border-radius: 10px;
+padding-left: 60px;
+padding-right: 60px;
+padding-bottom: 20px;
+max-width: 700px;
 }
 
-.column{text-align: left;}
-
-ul{
-  border:  solid rgb(146, 164, 255);
-  width: 500px;
+.exercises{
+  font-style: italic;
+  border: solid rgb(146, 164, 255);
   background-color: rgb(146, 164, 255);
-  margin: 40px;
-  padding: 10px;   
   box-shadow: 10px 10px 5px rgb(135, 102, 255);
   border-radius: 10px;
+  text-align: left;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+  margin-bottom: 100px;
+  max-width: 700px;
+  font-size: 1.25em;
   }
 
 a:link {
